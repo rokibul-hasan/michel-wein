@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Das Weinhaus Michel ist eine gemütliche Weinstube mit Gewölbekeller und Straßenterrasse mitten in der Altstadt von Mainz." />
+<meta name="keywords" content="Weinhaus, Weinstube, Michel, Stefan, Weingut in Weinolsheim, Mainz, Altstadt, Weinanbau, Weinverkauf, Essen und Trinken, Warme K&uuml;che, Rheinhessische Spezialit&auml;ten, Gew&ouml;lbekeller, Veranstaltungen, Gesellschaften, Stra&szlig;enlokal, Terrasse, Raummiete, Weihnachtsfeier, Reservierungen, Weinbestellung, Fastnacht" />
+<meta name="robots" content="index,follow" />
+<meta name="language" content="de" />
+<meta name="city" content="Mainz" />
+<meta name="country" content="DE, Deutschland, Germany" />
+<title>Weinhaus Michel – @@(title)@@</title>
+<link href="../style/default.css" rel="stylesheet" type="text/css" />
+<link href="../favicon.ico" rel="shortcut icon" />
+<script charset="utf-8" type="text/javascript" src="../script/ga_anonym.js"></script>
+<script charset="utf-8" type="text/javascript" src="../script/tinyfader.js"></script>
+<!-- TemplateParam name="active_nav" type="text" value="" -->
+<!-- TemplateParam name="active_subnav" type="text" value="" -->
+<!-- TemplateParam name="title" type="text" value="Seitentitel" -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="logo"><a href="../index.html"><span id="logoback">Weinhaus Michel</span></a></div>
+<div id="navigation">
+  <ul>
+    <li><a href="../index.html" class="@@(active_nav == 'home' ? 'active' : 'inactive')@@">Aktuelles</a>
+      <ul class="@@(active_nav == 'home' ? 'active' : 'inactive')@@">
+        <li><a href="../ueber-uns/ueber-uns.html" class="@@(active_subnav == 'ueberuns' ? 'active' : 'inactive')@@">Über uns</a></li>
+        <li><a href="../ueber-uns/team.html" class="@@(active_subnav == 'team' ? 'active' : 'inactive')@@"> Michels  Team</a></li>
+      </ul>
+      </li>
+	<li><a href="../weinstube/weinstube.html" class="@@(active_nav == 'weinstube' ? 'active' : 'inactive')@@">Weinstube</a>
+      <ul class="@@(active_nav == 'weinstube' ? 'active' : 'inactive')@@">
+        <li><a href="../weinstube/weinstube.html" class="@@(active_subnav == 'drinnen' ? 'active' : 'inactive')@@">Drinnen, draußen und unten</a></li>
+        <li><a href="../weinstube/speisekarte.html" class="@@(active_subnav == 'speisekarte' ? 'active' : 'inactive')@@">Speisekarte</a></li>
+        <li><a href="../weinstube/feiernimkeller.html" class="@@(active_subnav == 'kellerfeier' ? 'active' : 'inactive')@@">Feiern im Keller</a></li>
+      </ul>
+    </li>
+    <li><a href="../weinberge/weinberge.html" class="@@(active_nav == 'weingut' ? 'active' : 'inactive')@@">Weinberge</a>
+    	<ul class="@@(active_nav == 'weingut' ? 'active' : 'inactive')@@">
+        <li><a href="../weinberge/weinberge.html" class="@@(active_subnav == 'weinberge' ? 'active' : 'inactive')@@">Unsere Weinberge</a></li>
+        <li><a href="../weinberge/philosophie.html" class="@@(active_subnav == 'vielliebe' ? 'active' : 'inactive')@@">Unsere Philosophie</a></li>
+      </ul>
+     </li>
+     <li><a href="../unsere-weine/weinliste.php" class="@@(active_nav == 'unsereweine' ? 'active' : 'inactive')@@">Unsere Weine</a></li>
+    <li><a href="../weinpersoenlichkeiten/michels-weine.html" class="@@(active_nav == 'weinpersoenlichkeiten' ? 'active' : 'inactive')@@">Weinpersönlichkeiten</a>
+      	<ul class="@@(active_nav == 'weinpersoenlichkeiten' ? 'active' : 'inactive')@@">
+        <li><a href="../weinpersoenlichkeiten/rotweine.html" class="@@(active_subnav == 'rotweine' ? 'active' : 'inactive')@@">Rotweine</a></li>
+        <li><a href="../weinpersoenlichkeiten/weisswein.html" class="@@(active_subnav == 'weissweine' ? 'active' : 'inactive')@@">Weißweine</a></li>
+        <li><a href="../weinpersoenlichkeiten/kraeutertrunk.html" class="@@(active_subnav == 'kraeutertrunk' ? 'active' : 'inactive')@@">Kräutertrunk</a></li>
+        <li><a href="../weinpersoenlichkeiten/verfuehrer.html" class="@@(active_subnav == 'verfuehrer' ? 'active' : 'inactive')@@">Andere Verführer</a></li>
+        <li><a href="../weinpersoenlichkeiten/praesente.html" class="@@(active_subnav == 'praesente' ? 'active' : 'inactive')@@">Präsente</a></li>
+        
+      </ul>
+     </li>
+     <li><a href="../unsere-weine/bestellung.html" class="@@(active_nav == 'bestellung' ? 'active' : 'inactive')@@">Bestellung / AGB</a></li>
+    <li><a href="../weintermine/weintermine.html" class="@@(active_nav == 'weintermine' ? 'active' : 'inactive')@@">Wein-Termine</a>
+    <ul class="@@(active_nav == 'weintermine' ? 'active' : 'inactive')@@">
+    <li><a href="../weintermine/stamweg.html" class="@@(active_subnav == 'stamweg' ? 'active' : 'inactive')@@">STAM-Weg</a></li>
+    </ul></li>
+    <li><a href="../presse/presse.html" class="@@(active_nav == 'presse' ? 'active' : 'inactive')@@">Die Presse über uns</a></li>
+    <!--<li><a href="../impressionen/impressionen.html" class="@@(active_nav == 'impressionen' ? 'active' : 'inactive')@@">Impressionen</a></li>-->
+    <li><a href="../kontakt-impressum/kontakt.html" class="@@(active_nav == 'kontakt' ? 'active' : 'inactive')@@">Kontakt &amp; Anfahrt</a></li>
+    <li><a href="../kontakt-impressum/impressum.html" class="@@(active_nav == 'impressum' ? 'active' : 'inactive')@@">Impressum</a></li>
+    <li><a href="https://www.facebook.com/WeinhausMichel" target="_blank"><br />
+      <img src="../style/images/facebook.png" width="33" height="33" alt="Besuchen Sie uns auf Facebook" /></a>&nbsp;&nbsp;<a href="http://www.qype.com/place/7697-Weinhaus-Michel-Mainz" target="_blank"><img src="../style/images/qype.png" width="33" height="33" alt="Bewerten Sie uns auf qype" /></a><!--&nbsp;&nbsp;<img src="../style/images/google_+.png" width="33" height="33" alt="Besuchen Sie uns auf google+" />-->&nbsp;&nbsp;<a href="http://www.tripadvisor.de/Restaurant_Review-g187393-d2056808-Reviews-Weinhaus_Michel-Mainz_Rhineland_Palatinate.html" target="_blank"><img src="../style/images/tripadvisor.png" width="33" height="33" alt="Bewerten Sie uns auf Tripadvisor" /></a></li>
+    </ul>
+</div>
+
+<div id="content_wrapper">
+<div id="toplevelnavigation"><a href="../kontakt-impressum/kontakt.html">Kontakt &amp; Anfahrt</a> | <a href="../kontakt-impressum/impressum.html">Impressum</a></div>
+<div id="toppic"><div>
+			<!-- TemplateBeginEditable name="topic" --><ul id="slides"><li><img src="photos/sea-turtle.jpg" width="500" height="300" alt="Sea turtle" /></li>
+				<li><img src="photos/coral-reef.jpg" width="500" height="300" alt="Coral Reef" /></li>
+				<li><img src="photos/blue-fish.jpg" width="500" height="300" alt="Blue Fish" /></li></ul>
+			<!-- TemplateEndEditable -->
+		</div>
+	<div class="paging"><!-- TemplateBeginEditable name="seitenscroller" --><ul id="pagination" class="pagination">
+		<li onclick="slideshow.pos(0)">1</li>
+		<li onclick="slideshow.pos(1)">2</li>
+		<li onclick="slideshow.pos(2)">3</li>
+	</ul><!-- TemplateEndEditable --></div></div>
+	
+  <div id="content"><!-- TemplateBeginEditable name="content" -->
+  <h1>Lorem ipsum ad qui amet dolore lorem ipsum ad qui amet dolore</h1>
+  <h2>vitae cetero quaerendum mel ea</h2>
+  <p> Facilis fastidii duo no. Viris partiendo ius no, alia animal nam at. Feugait imperdiet ius an, no quis facer lucilius vis. Aliquam saperet contentiones ex pro, id idque offendit ius. Fugit suavitate ad eam, ut essent debitis cum. Cu duo iudico instructior. Sea te choro perfecto, per eu meis nonumy percipit. Ut mea sint constituam, cu pro impedit constituam. Et diam wisi tollit mel, te has atqui veritus. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. Vis et pertinacia abhorreant constituam, eum at quod vero. Ferri consectetuer sed no, ex vix nonumy posidonium quaerendum. Eum in nostro omnesque philosophia, sit veniam recteque et. Falli volumus ullamcorper id vis, fugit debet ei pri. Mea esse saperet oporteat cu, sumo interesset an cum. Facer expetenda ius te, sint mundi aperiri no est, mollis salutandi quo ne. No dicta errem sed. Mea ei detraxit patrioque, sumo eirmod ea vix. Et dicit omittantur eam, et vix modo eius vidit. </p>
+  <!-- TemplateEndEditable --></div>
+  <div id="stempel"></div>
+  <div id="flaschenback"></div>
+</div>
+<div id="footer">Jakobsbergstraße 8 | 55116 Mainz | Tel.&nbsp;06131&nbsp;233283<br />
+  <a href="mailto:info@michel-wein.de">info@michel-wein.de</a>
+  <div id="footerpic"></div>
+  <br />
+  Öffnungszeiten: täglich ab 16.00 Uhr</div>
+</div>
+
+<script type="text/javascript">
+var slideshow=new TINY.fader.fade('slideshow',{
+	id:'slides',
+	auto:3,
+	resume:true,
+	navid:'pagination',
+	activeclass:'current',
+	visible:true,
+	position:0
+});
+</script>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+<script type="text/javascript">
+if( gaanonym.switcher.isActive() ) {
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6249569-1']);
+  _gaq.push(['_gat._anonymizeIp']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+      '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+}
+</script>
+
+</body>
+</html>

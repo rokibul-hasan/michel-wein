@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/LICENSE</key>
+		<data>
+		BfI4bhKqFX451tlAW1Y7cmlotpo=
+		</data>
+		<key>Resources/google_appengine.zip</key>
+		<data>
+		8NG9f4or5sqc/bRl2hU64NQTImc=
+		</data>
+		<key>Resources/packagemanager.py</key>
+		<data>
+		ke9k+1qGRbrUPX3L3/L1xPZXdpQ=
+		</data>
+		<key>Resources/php-cgi</key>
+		<data>
+		ahXVbFA4RwDJvNArDY10LxHizSs=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

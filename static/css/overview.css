@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.contentWrap {
+	background: #FFF;
+	width: 100%;
+	overflow-y: auto;
+	padding: 10px;
+}
+#unsereweine {
+	margin: 0px;
+	padding: 0 0 28px 0;
+}
+.panes {
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+}
+#unsereweine li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	float: left;
+}
+#unsereweine li a {
+	border-right: solid 1px #ccc;
+	border-left: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	margin: 2px 2px 0 2px;
+	padding: 8px 8px 8px 7px;
+	font: 12px/10px "Lucida Sans Unicode","Lucida Grande",Verdana,Geneva,sans-serif;
+}
+#unsereweine li a:hover, #unsereweine li a.active {
+	border-bottom: 4px solid #FFFFEB;
+}
+ul.tabs {
+	margin: 0 0 20px 0;
+}
+
+/*-------------------------------*/
+/*Detailview der einzelnen Weine*/
+/*-------------------------------*/
+
+
+.detailviewdiv {
+	/*float:left;
+	width:100%;*/
+	border: dotted 1px #ccc;
+	padding: 10px;
+	min-height: 430px;
+}
+.detailviewimg {
+	  float: left;
+	  padding-right: 12px;
+}
+.detailviewdiv ul, .detailviewdiv li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.detailviewdiv .preis {
+	font-size: 18px;
+	font-weight: bold;
+	color: #336667;
+	padding-top: 0.2em;
+}
+.detailviewdiv h1 {
+	margin-bottom: 8px;
+}
+
+
+/*-------------------------------*/
+/*Listendrstellung der Weine*/
+/*-------------------------------*/
+
+
+.overviewdiv {
+	width: 45%;
+	float: left;
+	padding: 1%;
+	margin: 1%;
+	background-color: #FFF;
+	border: dotted 1px #ccc;
+}
+.overviewdiv h3 {
+	font-size: 1.1em;
+	line-height: 1.4em;	
+	padding-bottom: 0.4em;
+}
+.overviewimg {
+	  float: left;
+	  padding-right: 12px;	  
+}
+.overviewdiv li {
+	list-style-type: none;
+}
+.overviewdiv .literpreis {
+	font-size: 10px;
+	line-height: 11px;
+}
+.overviewdiv .preis {
+	font-size: 18px;
+	font-weight: bold;
+	color: #336667;
+	padding-top: 0.2em;
+}
+.weinbestellen li {
+	border-top: 1px dotted #CCCCCC;
+    margin: 10px;
+    padding-top: 10px;
+}

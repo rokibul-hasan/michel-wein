@@ -1,0 +1,441 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: 0.8em/1.8em "Lucida Sans Unicode", "Lucida Grande", Verdana, Geneva, sans-serif;
+	color: #333;
+	overflow-x: hidden;
+	background: #344E55 url(images/back_body.gif) repeat 0px 100px;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #336667;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 1.2em;
+}
+h2 {
+	font-size: 1.8em;
+	line-height: 1em;
+	color: #336667;
+}
+h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: -0.5em;
+	margin-top: 0px;
+}
+h4 {
+	font-size:1.1em;
+	font-weight: bold;
+}
+.trennlinie {
+	border: none;
+	height: 40px;
+	background: url(images/back_hr.gif) no-repeat center center;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	clear: both;
+}
+a {
+	color: #336667;
+	text-decoration: none;
+}
+th {
+	text-align: left;
+	background-color: #CFECBA;
+}
+a:hover {
+	text-decoration: underline;
+}
+#wrapper  {
+	/*background: url(images/wrapper_back.jpg) no-repeat 0px 0px;*/
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	/* [disabled]max-width: 1265px; */
+	left: 1px;
+	background: url(images/back_wrapper.gif) repeat-x;
+	width: 100%;
+}
+#content_wrapper {
+	margin: 64px 100px 10px 246px;
+	position: relative;
+	-webkit-box-shadow: 8px 8px 8px #004B49;
+	-moz-box-shadow: 4px 4px 8px #004B49;
+	box-shadow: 8px 8px 8px #004B49;
+	border-top: solid 2px #004b49;
+	border-left: solid 2px #004b49;
+	background: #FFFFEB;
+	/*min-width: 640px;*/
+	width: 702px;
+}
+#content {
+	padding: 15px 100px 150px 40px;
+	min-height: 454px;
+}	
+#logo {
+	height: 109px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 35px;
+	width:215px
+}
+#logoback {
+	text-indent: -5000px;
+	background: url(images/michel_logo.png) no-repeat left top;
+	width: 215px;
+	height: 108px;
+	display: block;
+}
+#flaschenback {
+	display: block;
+	width: 157px;
+	height: 554px;
+	background: url(images/flasche_back-sommer02.png) no-repeat;
+	position: absolute;
+	bottom: 0px;
+	/* right: -69px; normal */
+	/* right: -87px;/* für Fastnacht und Spargel*/
+	/* right: -83px;/* für die Ostern*/
+	right: -69px;
+}
+#footer {
+	margin-left: 246px;
+	color: #CBDFC0;
+	margin-bottom: 20px;
+	position: relative;
+}
+#footer a {
+	color: #CBDFC0;
+}
+#footerpic {
+	display: block;
+	width: 800px;
+	height: 382px;
+	position: absolute;
+	top: -156px;
+	left: 443px;
+	background: url(images/footer_sommer02.png) no-repeat;
+}
+/* Navigation */
+
+#navigation {
+	margin-left: 32px;
+	margin-top: 216px;
+	position: absolute;
+}
+#navigation ul {
+	margin: 0px;
+	padding: 0 0 0 10px;
+	list-style: none;
+}
+#navigation ul a {
+	font:1.4em/2em Georgia, "Times New Roman", Times, serif;
+	color: #CFECBA;
+	text-decoration: none;
+}
+#navigation ul a:hover {
+	color: #FFFFFF;
+}
+#navigation ul ul {
+	margin: 0px;
+	padding: 0 0 0 10px;
+}
+#navigation ul ul.inactive {
+	display: none;
+}
+#navigation ul ul a{
+	text-decoration: none;
+	font-size: 1em;
+	line-height: 2em;
+}
+#navigation a.active {
+	color: #FFF;
+	overflow: visible;
+}
+#toplevelnavigation {
+	position: absolute;
+	text-align:right;
+	right: 0px;
+	top: -40px;
+	color: #A6D2A7;
+}
+#toplevelnavigation a {
+	font:1.2em/2.2em Georgia, "Times New Roman", Times, serif;
+	color: #A6D2A7;
+	text-decoration: none;
+}
+
+
+/*bilderslider oben*/
+#toppic {
+	height: 346px;
+	overflow: hidden;
+}
+/*#toppic img {
+	width: 702px;
+	height: auto;
+}
+#toppic .sliderbutton {
+	width:32px;
+	top: 134px;
+	float: left;
+}
+#toppic .sliderbutton img {cursor:pointer}
+#toppic .sliderbutton img:hover {background:#666}*/
+#toppic #slideshow {
+	max-width:702px;
+	height:348px;
+	float: left;
+}
+#toppic #slides {
+	position: relative;
+	max-width: 702px;
+	height: 366px;
+	list-style: none;
+	overflow: auto;
+	margin: 0;
+	padding: 0;
+}
+#toppic #slides li {
+	max-width:702px;
+	height:348px;
+	margin: 0;
+	padding: 0;
+}
+#toppic #slides li img{
+	width: 100%;
+}
+#toppic .pagination {
+	list-style:none;
+	height:25px;
+	margin:15px 0 0 32px
+}
+#toppic .pagination li {
+	-moz-border-radius: 3px 3px 3px 3px;
+	float:left;
+	cursor:pointer;
+	padding: 2px 4px;
+	border: 1px solid #FFFFEB;
+	margin:0 4px 0 0;
+	text-align:center;
+	color:#FFF
+}
+#toppic .pagination li:hover,
+#toppic li.current {
+    -moz-border-radius: 3px 3px 3px 3px;
+    background: none repeat scroll 0 0 #336667;
+    border: 1px solid #FFFFEB;
+}
+element.style {
+    display: block;
+}
+#toppic .paging {
+	height: 47px;
+	position: absolute;
+	width: auto;
+	z-index: 100;
+	right: 10px;
+	top: 10px;
+	padding: 0;
+	margin: 0;
+}
+/************************** reitermenü für details mitglieder ******************************/
+tr.odd {
+	background-color: #FFF;
+}
+tr.even {
+	background-color: #FFFFEB;
+}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 24px; /*--Set height of tabs--*/
+	border-bottom: 1px solid #136968;
+	/*border-left: 1px solid #DDDFE1;*/
+	width: 100%;
+}
+ul.tabs li {
+	float: left;
+	margin: 0 2px 0 0;
+	padding: 0;
+	height: 25px; /*--Subtract 1px from the height of the unordered list--*/
+	line-height: 25px; /*--Vertically aligns the text within the tab--*/
+	margin-bottom: -1px; /*--Pull the list item down 1px--*/
+	overflow: hidden;
+	position: relative;
+	background: #CFECBA url(images/back_tabs.gif) repeat-x left bottom;
+}
+ul.tabs li a {
+	display: block;
+	padding: 0 12px;
+	border: 1px solid #136968;
+	outline: none;
+}
+ul.tabs li a:hover {
+	background: url(images/back_tabshover.gif) repeat-x left bottom;
+}
+html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+	border-bottom: 1px solid #FFFFEB; /*--Makes the active tab look like it's connected with its content--*/
+	background: #FFFFEB;
+}
+.tab_container {
+	overflow: hidden;
+	clear: both;
+	float: left;
+	width: 100%;
+	background-color: #FFFFEB;
+}
+.tab_content {
+	padding: 20px 10px 0 10px;
+}
+
+/*************** Formulare *****************/
+.formfield_input {
+	margin-bottom: 6px;
+	position: relative;
+	min-height: 26px;
+}
+.formfield_input img {
+	margin-top: 0px;
+}
+input[type=text], textarea {
+	background:url(images/back_input.gif) no-repeat left top;
+	border-bottom: 1px solid #DDDFE1;
+	border-top: 1px solid #939596;
+	border-left: 1px solid #939596;
+	border-right: 1px solid #DDDFE1;
+	padding: 3px;
+	width: 240px;
+}
+input[type=text] {
+	height: 16px;
+}
+input {
+	font: 12px Helvetica, Arial, sans-serif;
+	color: #66676B;
+	margin-right: 6px;
+	float: left;
+}
+input[type=text].bestellung {
+	width: 30px;
+}
+textarea {
+	font: 12px Helvetica, Arial, sans-serif;
+	color: #66676B;
+	margin-bottom: 6px;
+	height: 94px;
+	width: 310px;
+}
+label {
+	padding-right: 12px;
+	width: 120px;
+	display: block;
+	float: left;
+	height: 20px;
+	text-align: right;
+	padding-top: 4px;
+}
+.inarow label {
+	width: auto;
+	float: left;
+}
+.inarow label.first {
+	width: 120px;
+}
+.inarow input {
+	width: 90px;
+	float: left;
+	margin-top: 0;
+}
+#stempel {
+	background: url(images/back_stempel.png) no-repeat;
+	width: 157px;
+	height: 187px;
+	position: absolute;
+	left: 550px;
+	top: 280px;
+	z-index: 9000;
+}
+.bold_green {
+	font-weight: bold;
+	color: #336667;
+}
+
+/*
+Developer Name: Rokibul hasan
+--------------------------------------
+*/
+
+#content table td {
+	border-top: 1px solid #136968;
+	padding-top: 12px;
+	margin-right: 12px;
+}
+#content_wrapper{max-width: 702px;}   
+        .rhein_logo{float:right;}
+        .slicknav_menu{display: none;}
+
+#toppic img {
+  width: 100%;
+}
+
+/* wide mobile layout: 480px*/
+
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 960px){
+  .aside_left {
+	display: none;
+}
+    .aside_right {
+    margin:0 auto;
+        width: 100%;
+	
+}
+    .slicknav_menu{display: block;padding-bottom: 30px;margin: 0 auto;}
+    #toplevelnavigation{padding: 5px;}
+
+    #content_wrapper {
+	margin: 0 auto;
+        width: 100%;
+}
+    #content img{width:200px;}
+    #content{padding: 10px 15px;}
+
+#content {
+	padding-bottom: 145px;
+}
+    
+    #footer{margin: 0 auto;padding: 20px;padding-left: 100px;}
+    #flaschenback{bottom: 0;height: 400px}
+    #footerpic {display: none;}
+    .rhein_logo {float: left;padding-left: 20px;padding-right: 20px}
+    
+    table tr>td{float: left}
+    
+    #flaschenback {display: none;}
+    
+    /* slider */
+
+  
+}
+@media only screen and (min-width: 0px) and (max-width: 480px){
+   #toppic .paging{display: none;}
+    #toppic {	max-height: 210px;}
+}
+    
+        
